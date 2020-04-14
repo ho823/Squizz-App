@@ -1,1 +1,0 @@
-# nts_p2_0320_squizz
