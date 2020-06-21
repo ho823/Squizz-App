@@ -1,0 +1,12 @@
+.container {
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.questionBox {
+  width: 70px;
+  align-self: center;
+}

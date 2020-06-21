@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+.topBar {
+  width: 100vw;
+  background: #17a2b8;
+  margin-bottom: 50px;
+}
+
+.brand {
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .topBar {
+    margin-bottom: 30px;
+  }
+}

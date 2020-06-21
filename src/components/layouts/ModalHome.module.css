@@ -1,0 +1,22 @@
+.buttonYes {
+  width: 20vh;
+  }
+  
+  .buttonNo {
+  width: 20vh;
+  }
+  
+  .buttonGroup {
+  display:flex !important;
+  justify-content:center !important;
+  align-items:center !important;
+  }
+  
+  .modalText {
+  text-align: center;
+  }
+
+  .buttonLogo {
+    background-color: transparent;
+    border: none;
+  }

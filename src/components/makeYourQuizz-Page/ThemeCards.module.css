@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.theme {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  border: none !important;
+  padding: 1rem;
+}
+
+.image {
+  height: 24vh;
+  margin-bottom: 0.5rem;
+}
+
+.cardBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cardBody :hover {
+  transform: scale(1.1);
+  transition: all 400ms;
+  opacity: 0.9;
+}
+
+.button {
+  width: 100%;
+}
+
+.select {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .select {
+    display: block;
+    width: 100%;
+  }
+
+  .theme {
+    display: none;
+  }
+}

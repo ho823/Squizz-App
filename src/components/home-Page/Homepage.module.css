@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+.frontPageLogo {
+  height: 45%;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55vw;
+}
+
+.playSoloButton {
+  font-size: 1rem;
+  font-weight: 800;
+  background-color: #17a2b8;
+  color: white;
+  border-radius: 100px;
+  width: 100%;
+  height: 10vh;
+  border: none;
+  box-shadow: 4px 4px 4px lightgrey;
+  margin: 3rem 0 3rem 0;
+}

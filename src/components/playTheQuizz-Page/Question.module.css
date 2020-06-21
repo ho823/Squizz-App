@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 30px;
+  color: black;
+  background-color: #ececec;
+  padding: 10px;
+}
+
+.h3 {
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  padding: 20px;
+  font-weight: 500;
+}
